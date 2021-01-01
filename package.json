@@ -34,9 +34,12 @@
   "devDependencies": {
     "concat-stream": "^2.0.0",
     "dirmap": "^0.0.2",
-    "expect.js": "^0.3.1",
+    "expect.js": "^0.3.1"
   },
   "bin": {
     "jsxtsxscanner": "./bin/jsxtsxscanner"
+  },
+  "scripts": {
+    "build": "npm run build"
   }
 }
