@@ -35,12 +35,8 @@
     "concat-stream": "^2.0.0",
     "dirmap": "^0.0.2",
     "expect.js": "^0.3.1",
-    "mocha": "^8.2.1"
   },
   "bin": {
     "jsxtsxscanner": "./bin/jsxtsxscanner"
-  },
-  "scripts": {
-    "test": "mocha -R spec spec spec/reporters"
   }
 }
