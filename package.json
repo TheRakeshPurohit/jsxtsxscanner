@@ -1,6 +1,6 @@
 {
   "name": "jsxtsxscanner",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Scans your JS, JSx, TS, TSx files for duplication of code and helps you write non repetive code",
   "keywords": [
     "inspect",
