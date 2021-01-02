@@ -1,6 +1,6 @@
 {
   "name": "jsxtsxscanner",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "description": "Scans your JS, JSx, TS, TSx files for duplication of code and helps you write non repetive code",
   "keywords": [
     "inspect",
@@ -20,7 +20,7 @@
   "homepage": "https://github.com/therakeshpurohit/JSxTSxScanner",
   "repository": {
     "type": "git",
-    "url": "https://github.com/therakeshpurohit/JSxTSxScanner.git"
+    "url": "git+https://github.com/therakeshpurohit/JSxTSxScanner.git"
   },
   "dependencies": {
     "babylon": "6.18.0",
@@ -37,9 +37,16 @@
     "expect.js": "^0.3.1"
   },
   "bin": {
-    "jsxtsxscanner": "./bin/jsxtsxscanner"
+    "jsxtsxscanner": "bin/jsxtsxscanner"
   },
   "scripts": {
     "build": "npm run build"
+  },
+  "bugs": {
+    "url": "https://github.com/therakeshpurohit/JSxTSxScanner/issues"
+  },
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
   }
 }
